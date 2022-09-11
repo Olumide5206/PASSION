@@ -1,0 +1,397 @@
+.calc {
+    width: 250px;
+    height: 400px;
+    background-color: gainsboro;
+    border: 1px solid darkgray;
+    position: relative;
+    left: 450px;
+    top: 200px;
+    border-radius: 30px;
+    box-shadow: 3px 4px 6px 2px black, inset 2px 4px 6px 3px white;
+}
+
+.calc .casio {
+    position: relative;
+    left: 45px;
+    top: -58px; 
+    color: black;
+}
+
+.calc .screen-1 {
+width: 200px;
+height: 70px;
+position: relative;
+left: 20px;
+top: 50px;
+border: 1px solid darkgray;
+border-radius: 15px;
+box-shadow: inset 1px 1px 2px 1px black;
+}
+
+.calc .plus {
+    position: relative;
+    left: 120px;
+    top: 12px;
+    font-weight: bold;
+}
+
+.calc .screen-2 {
+width: 34px;
+height: 35px;
+position: relative;
+left: 15px;
+top: 50px;
+border: 1p darkgray;
+border-radius: 15px;
+box-shadow: inset 1px 1px 2px 1px black;
+background-color: blue;
+}
+
+.calc .ac {
+    position: relative;
+    left: 20px;
+top: 20px;
+color: white;
+}
+
+.calc .screen-3 {
+    width: 35px;
+height: 35px;
+position: relative;
+left: 72px;
+top: -3px;
+border: 1p darkgray;
+border-radius: 15px;
+box-shadow: inset 1px 1px 2px 1px black;
+background-color: blue;
+}
+
+.calc .slash {
+    position: relative;
+    left: 82px;
+    top: -30px;
+    color: white;
+}
+
+.calc .screen-4 {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 130px;
+    top: -57px;
+    border: 1p darkgray;
+    border-radius: 15px;
+    box-shadow: inset 1px 1px 2px 1px black;
+    background-color: blue;
+}
+
+.calc .percentage {
+    position: relative;
+    left: 140px;
+    top: -82px;
+    color: white;
+}
+
+.calc .screen-5 {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 188px;
+    top: -108px;
+    border: 1p darkgray;
+    border-radius: 15px;
+    box-shadow: inset 1px 1px 2px 1px black;
+    background-color: goldenrod;
+}
+
+.calc .divide {
+    position: relative;
+    left: 200px;
+    top: -135px;
+    color: white;
+    font-weight: bold;
+}
+
+.calc .screen-6 {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 17px;
+    top: -118px;
+    border: 1p darkgray;
+    border-radius: 15px;
+    box-shadow: inset 1px 1px 2px 1px black;
+}
+/* no7 */
+.calc .seven {
+    position: relative;
+    left: 29px;
+    top: -460px;
+}
+
+.calc .screen-7 {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 72px;
+    top: -172px;
+    border: 1p darkgray;
+    border-radius: 15px;
+    box-shadow: inset 1px 1px 2px 1px black;
+}
+
+.calc .eight {
+    position: relative;
+    left: 87px;
+    top: -553px; 
+}
+/* done nine */
+.calc .screen-8 {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 130px;
+    top: -224px;
+    border: 1p darkgray;
+    border-radius: 15px;
+    box-shadow: inset 1px 1px 2px 1px black;
+}
+
+.calc .nine {
+    position: relative;
+    left: 143px;
+    top: -609px; 
+}
+/* done times */
+.calc .times {
+    position: relative;
+    left: 198px;
+    top: -660px; 
+    color: white;
+}
+/* done five */
+.calc .screen-9 {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 73px;
+    top: -230px;
+    border: 1p darkgray;
+    border-radius: 15px;
+    box-shadow: inset 1px 1px 2px 1px black;
+}
+/* done five */
+.calc .five {
+    position: relative;
+    left: 88px;
+    top: -309px; 
+    color: black;
+}
+
+/* done four */
+.calc .screen-10 {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 18px;
+    top: -284px;
+    border: 1p darkgray;
+    border-radius: 15px;
+    box-shadow: inset 1px 1px 2px 1px black;
+}
+/* done four */
+.calc .four {
+    position: relative;
+    left: 33px;
+    top: -257px; 
+    color: black;
+}
+
+/* done times */
+.calc .screen-11 {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 186px;
+    top: -383px;
+    border: 1p darkgray;
+    border-radius: 15px;
+    box-shadow: inset 1px 1px 2px 1px black;
+    background-color: goldenrod;
+}
+
+/* done minus */
+.calc .screen-12 {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 186px;
+    top: -386px;
+    border: 1p darkgray;
+    border-radius: 15px;
+    box-shadow: inset 1px 1px 2px 1px black;
+    background-color: goldenrod;
+}
+/* done minus */
+.calc .minus {
+    position: relative;
+    left: 198px;
+    top: -662px; 
+    color: white;
+}
+
+/* done equal to */
+.calc .screen-13 {
+    width: 35px;
+    height: 75px;
+    position: relative;
+    left: 186px;
+    top: -391px;
+    border: 1p darkgray;
+    border-radius: 15px;
+    box-shadow: inset 1px 1px 2px 1px black;
+    background-color: goldenrod;
+}
+/* done equal */
+.calc .equal {
+    position: relative;
+    left: 200px;
+    top: -825px; 
+    color: black;
+    color: white;
+}
+
+/* done three */
+.calc .screen-14 {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 129px;
+    top: -486px;
+    border: 1p darkgray;
+    border-radius: 15px;
+    box-shadow: inset 1px 1px 2px 1px black;
+} 
+/* done three */
+.calc .three {
+    position: relative;
+    left: 142px;
+    top: -153px; 
+    color: black;
+}
+
+/* done six*/
+.calc .screen-15 {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 130px;
+    top: -589px;
+    border: 1p darkgray;
+    border-radius: 15px;
+    box-shadow: inset 1px 1px 2px 1px black;
+}
+/* done six */
+.calc .six {
+    position: relative;
+    left: 143px;
+    top: -362px; 
+    color: black;
+}
+
+/* done two */
+.calc .screen-16 {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 74px;
+    top: -590px;
+    border: 1p darkgray;
+    border-radius: 15px;
+    box-shadow: inset 1px 1px 2px 1px black;
+}
+/* done two */
+.calc .two {
+    position: relative;
+    left: 87px;
+    top: -100px; 
+    color: black;
+}
+
+/* done plus */
+.calc .screen-17 {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 130px;
+    top: -597px;
+    border: 1p darkgray;
+    border-radius: 15px;
+    box-shadow: inset 1px 1px 2px 1px black;
+}
+/* done plus */
+.calc .add {
+    position: relative;
+    left: 144px;
+    top: -782px; 
+    color: black;
+}
+
+/* done dot */
+.calc .screen-18 {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 77px;
+    top: -630px;
+    border: 1p darkgray;
+    border-radius: 15px;
+    box-shadow: inset 1px 1px 2px 1px black;
+}
+/* done dot */
+.calc .dot {
+    position: relative;
+    left: 90px;
+    top: -761px; 
+    color: black;
+    font-size: 2em;
+}
+
+/* done one */
+.calc .screen-19 {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 22px;
+    top: -710px;
+    border: 1p darkgray;
+    border-radius: 15px;
+    box-shadow: inset 1px 1px 2px 1px black;
+}
+/* done one */
+.calc .one {
+    position: relative;
+    left: 37px;
+    top: -44px; 
+    color: black;
+}
+
+
+/* done zero */
+.calc .screen-20 {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 23px;
+    top: -700px;
+    border: 1p darkgray;
+    border-radius: 15px;
+    box-shadow: inset 1px 1px 2px 1px black;
+}
+/* done zero */
+.calc .zero {
+    position: relative;
+    left: 36px;
+    top: -728px; 
+    color: black;
+}
